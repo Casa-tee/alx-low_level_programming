@@ -1,6 +1,7 @@
+#!/bin/bash
 #include <stdio.h>
 /*
- * main - print line of code using puts
+ * main - print a line of code using puts command
  *
  * Return: 0
 */
