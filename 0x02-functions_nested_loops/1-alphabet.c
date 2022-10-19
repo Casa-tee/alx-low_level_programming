@@ -2,7 +2,6 @@
 /**
  * print_alphabet - print the alphabet in lowercase
  *
- * Return: Always 0
 */
 void print_alphabet(void)
 {
@@ -11,7 +10,5 @@ void print_alphabet(void)
 	for (la = 'a'; la <= 'z'; la++)
 		_putchar(la);
 
-	_putchar('\n');
-
-	return (0);
+	_putchar('\n')
 }
