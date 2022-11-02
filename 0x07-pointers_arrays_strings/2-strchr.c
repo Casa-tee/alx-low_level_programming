@@ -1,8 +1,9 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
- * _strchr - Entry point
+ * _strchr - locates character in the string
  * @s: input
  * @c: input
  * Return: if c is found - a pointer to the first occurence
@@ -12,7 +13,7 @@ char *_strchr(char *s, char c)
 {
 	int i = 0;
 
-	for (; s[i] >= '\0'; i++)
+	for (s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
 			return (s[i]);
