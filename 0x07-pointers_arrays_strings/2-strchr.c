@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _strchr - function that locates a character in a string
- * @s: string input
- * @c: character input
+ * _strchr - Entry point
+ * @s: input
+ * @c: input
  * Return: Always 0 on success
  */
 char *_strchr(char *s, char c)
