@@ -4,7 +4,7 @@ int find_sqrt(int num, int root);
 int _sqrt_recursion(int n);
 
 /**
- * find_sqrt - function that returns the natural square root of a number
+ * find_sqrt - finds the natural square root of a number
  * @num: the number
  * @root: the root
  * Return: if number has natural square root - the square root
@@ -18,4 +18,22 @@ int find_sqrt(int num, int root)
 		return (-1);
 
 	return (find_sqrt(num, root + 1));
+}
+
+/**
+ * _sqrt_recursion - Returns the natural square root of a number
+ * @n: the number
+ * Return: If n has a natural square root - the natural square root of n
+ *	otherwise -1
+ */
+int _sqrt_recursion(int n)
+{
+	int root = 0;
+
+	if (n < 0)
+		return (-1);
+	if (n == 1)
+		return (1);
+
+	return (find_sqrt(n, root));
 }
