@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * main - prints all argument it receives
- * @argc: counts argument
- * @argv: the argument
- * Return: always 0 on success
+ * main - prints all arguments
+ * @argc: counts arguments
+ * @argv: the arguments
+ * Return: Always 0 on success
  */
 int main(int argc, char *argv[])
 {
@@ -16,7 +16,10 @@ int main(int argc, char *argv[])
 	{
 		/*WHILE - Print each arguments*/
 		while (count < argc)
+		{
 			printf("%s\n", argv[count]);
+			count++;
+		}
 	}
 	return (0);
 }
